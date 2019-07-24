@@ -1,0 +1,13 @@
+footer {
+    background: $backgroundWhite;
+    position: relative;
+    z-index: 5;
+    bottom: 0px;
+    color: $textBlue;
+    padding: 0.25em 0;
+
+    p {
+        text-align: center;
+        width: 100%;
+    }
+}

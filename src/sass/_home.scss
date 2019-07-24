@@ -1,0 +1,45 @@
+@media screen and (min-width: $query__small) {
+
+    .home {
+        width: 100%;
+
+        .mobileSlide {
+            .fullBodyImage img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $query__small){
+    .demoReel {
+        display: none;
+    }
+}
+
+@media screen and (min-width: $query__medium){
+    .demoReel {
+        display: block;
+    }
+
+    .mobileSlide {
+        display: none;
+    }
+}
+
+@media screen and (min-width: $query__large) {
+
+    .home {
+        height: 100vh;
+
+        video {
+            display: block;
+            position: fixed;
+            z-index: -1;
+        }
+
+        .mobileSlide {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.photoContent  {
+    width: 100%;
+    text-align: center;
+    @media screen and (min-width: $query__small) {
+        margin-top: 2em;
+    }
+
+    .photoDiv {
+        float: left;
+        height: 25em;
+        position: relative;
+        
+        .helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+        
+        img {
+            width: 100%;
+            max-width: 17em;
+            vertical-align: middle;
+        }
+
+        @media screen and (min-width: $query__small) {
+            width: 100%;
+            margin: 1%;
+        }
+
+        @media screen and (min-width: $query__medium) {
+            width: 46%;
+            margin: 2%;
+
+        }
+
+        @media screen and (min-width: $query__large) {
+            width: 23%;
+            margin: 1%;
+        }
+    }
+}
