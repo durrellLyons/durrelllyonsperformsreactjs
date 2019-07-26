@@ -24,14 +24,14 @@ a {
 .main {
     width: 100%;
     @media screen and (min-width: $query__small) {
-        margin-top: 10%;
+        padding: 10% 0 0;
     }
 
     @media screen and (min-width: $query__medium) {
-        margin-top: 0;
+        padding: 5% 0 0;
     }
 
     @media screen and (min-width: $query__large) {
-        margin: 0;
+        padding: 4% 0 0;
     }
 }

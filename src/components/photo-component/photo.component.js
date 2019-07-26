@@ -16,7 +16,7 @@ class Photo extends Component {
   }
  
   /* Upon initial mount of component: 
-   * all photo categories are retrieved from the database 
+   * all photos are retrieved from the database 
    */
   componentDidMount() {
     /* all data cleared from current state of imageList array before use */

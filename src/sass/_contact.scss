@@ -1,5 +1,4 @@
 .contact {
-    margin: 4em 0 0;
     position: relative;
     background-color: #000;
     color: $textWhite;
@@ -16,11 +15,13 @@
         padding: 1%;
 
         @media screen and (min-width: $query__small) {
-            width: 98%;
+            width: 95%;
+            padding: 10% 2% 0;
         }
 
         @media screen and (min-width: $query__medium) {
-            width: 45%;
+            width: 43%;
+            padding: 5% 3% 0;
         }
     }
 

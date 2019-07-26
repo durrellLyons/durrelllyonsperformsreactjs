@@ -15,7 +15,7 @@ export default class Bio extends Component {
                         <p>
                             Durrell Lyons is a theater, television, and film actor based out of Atlanta, GA.
                             He is most known for his reoccurring on <strong>Tyler Perry's The Haves and Have Nots</strong>,
-                            his co-Starring role on the TVOne original Love Under New Management,
+                            his co-Starring role on the TVOne original <strong>Love Under New Management </strong>,
                             and a guest-starring role in the highly acclaimed Tupac Shakur biopic <strong>All Eyez On Me</strong>.
                             
                             <br /><br />                        

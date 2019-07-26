@@ -14,7 +14,7 @@
     section {
 
         @media screen and (min-width: $query__large) {
-            padding: 5em ;
+           // padding: 5em ;
         }
 
         h2 {
@@ -33,7 +33,6 @@
             @media screen and (min-width: $query__small) {
                 padding: 3em;
                 border-radius: 0;
-                margin: 3em auto 0;
             }
 
             @media screen and (min-width: $query__small) {
@@ -43,7 +42,6 @@
             @media screen and (min-width: $query__large) {
                 padding: 1em;
                 border-radius: 10px;
-                margin: 7em auto;
             }
         }
     }

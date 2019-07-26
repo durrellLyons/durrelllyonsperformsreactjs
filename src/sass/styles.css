@@ -390,17 +390,17 @@ a {
 }
 @media screen and (min-width: 300px) {
   .main {
-    margin-top: 10%;
+    padding: 10% 0 0;
   }
 }
 @media screen and (min-width: 600px) {
   .main {
-    margin-top: 0;
+    padding: 5% 0 0;
   }
 }
 @media screen and (min-width: 900px) {
   .main {
-    margin: 0;
+    padding: 4% 0 0;
   }
 }
 
@@ -576,11 +576,6 @@ header nav .menu ul li:first-child {
     background: url("../img/full_body_vest.jpg") no-repeat fixed #000;
   }
 }
-@media screen and (min-width: 900px) {
-  .bio section {
-    padding: 5em;
-  }
-}
 .bio section h2 {
   text-align: center;
 }
@@ -596,7 +591,6 @@ header nav .menu ul li:first-child {
   .bio section .bio-note {
     padding: 3em;
     border-radius: 0;
-    margin: 3em auto 0;
   }
 }
 @media screen and (min-width: 300px) {
@@ -608,7 +602,6 @@ header nav .menu ul li:first-child {
   .bio section .bio-note {
     padding: 1em;
     border-radius: 10px;
-    margin: 7em auto;
   }
 }
 
@@ -641,8 +634,8 @@ header nav .menu ul li:first-child {
 }
 @media screen and (min-width: 300px) {
   .photoContent .photoDiv {
-    width: 100%;
-    margin: 1%;
+    width: 98%;
+    margin: 3% 1%;
   }
 }
 @media screen and (min-width: 600px) {
@@ -653,7 +646,77 @@ header nav .menu ul li:first-child {
 }
 @media screen and (min-width: 900px) {
   .photoContent .photoDiv {
-    width: 23%;
+    width: 30%;
+    margin: 1%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Credits
+--------------------------------------------------------------*/
+.credits {
+  background-color: rgba(175, 175, 175, 0.9);
+}
+
+.creditsDiv {
+  background-color: #000;
+  float: left;
+  width: 100%;
+  padding: 1em 0 0;
+  margin: 1em 0 2em;
+  text-align: center;
+  height: 25em;
+  position: relative;
+  border-radius: 10px;
+}
+.creditsDiv .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.creditsDiv img {
+  width: 85%;
+  max-width: 17em;
+  vertical-align: middle;
+  max-height: 23em;
+}
+.creditsDiv .credits_info_div {
+  position: absolute;
+  cursor: pointer;
+  padding: 0.5em;
+  text-align: center;
+  background: rgba(240, 240, 240, 0.9);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  top: 1em;
+  right: 1em;
+  bottom: 1em;
+  left: 1em;
+  display: none;
+}
+.creditsDiv .credits_info_div p {
+  padding: 2em 0 5em;
+}
+.creditsDiv .credits_info_div a {
+  position: relative;
+  top: 2em;
+}
+@media screen and (min-width: 300px) {
+  .creditsDiv {
+    width: 98%;
+    margin: 3% 1%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .creditsDiv {
+    width: 46%;
+    margin: 2%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .creditsDiv {
+    width: 30%;
     margin: 1%;
   }
 }
@@ -662,7 +725,6 @@ header nav .menu ul li:first-child {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  margin: 4em 0 0;
   position: relative;
   background-color: #000;
   color: #f0f0f0;
@@ -680,12 +742,14 @@ header nav .menu ul li:first-child {
 }
 @media screen and (min-width: 300px) {
   .contact article {
-    width: 98%;
+    width: 95%;
+    padding: 10% 2% 0;
   }
 }
 @media screen and (min-width: 600px) {
   .contact article {
-    width: 45%;
+    width: 43%;
+    padding: 5% 3% 0;
   }
 }
 .contact .reps img {
