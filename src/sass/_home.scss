@@ -16,6 +16,10 @@
 }
 
 @media screen and (min-width: $query__small){
+    .home {
+        padding: 3em 0 0;
+    }
+
     .demoReel {
         display: none;
     }

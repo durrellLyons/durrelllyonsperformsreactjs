@@ -10,6 +10,12 @@ export default class Bio extends Component {
                 <section className="container">
                     <aside className="bio-note">
                         <h1 className="page_title"> Biography </h1>
+                        <div className="demo_reel">
+                            <video className="bgVideo" width="100%" loop="loop" controls>
+                                <source src={DemoReel} type="video/mp4" />
+                                Your browser does not support HTML5 video.
+                            </video>
+                        </div>
                         <p>
                             Durrell Lyons is a theater, television, and film actor based out of Atlanta, GA.
                             He is most known for his reoccurring on <strong>Tyler Perry's The Haves and Have Nots</strong>,
@@ -41,12 +47,6 @@ export default class Bio extends Component {
                             
                         </p>
                     </aside>
-                    <div className="demo_reel">
-                        <video className="bgVideo" width="100%" loop="loop" controls>
-                            <source src={DemoReel} type="video/mp4" />
-                            Your browser does not support HTML5 video.
-                        </video>
-                    </div>
                 </section>
             </div>
         );

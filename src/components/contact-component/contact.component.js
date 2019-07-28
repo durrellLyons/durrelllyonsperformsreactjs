@@ -20,35 +20,37 @@ export default class Contact extends Component {
                 <section className="contact">
                     <div className="container">
                         <h1 className="page_title"> Contact </h1>
-                        <article className="reps">
-                            <span>Southeast representation: </span>
-                            <img src={BYSBLogo} id="seAgentLogo" alt="SE Agent Logo" />
-                            <br /> <br />
+                        <div className="contact_content">
+                            <article className="reps">
+                                <span>Southeast representation: </span>
+                                <img src={BYSBLogo} id="seAgentLogo" alt="SE Agent Logo" />
+                                <br /> <br />
 
-                            <span>New Mexico representation: </span>
-                            <img src={PhirgunMairLogo} id="nmAgentLogo" alt="NM Agent Logo" />
-                            
-                            <p>
-                                For booking for live shows entertainment for the theater, spoken word, or comedy
-                                please send an email to <a href={`mailto:durrell.lyons@gmail.com`}>Durrell.Lyons@gmail.com</a>
-                            </p>
-                        </article>
-                        <article className="igWidget">
-                            <span>Follow Me: </span><a href={`http://instagram.com/durrelllyonsperforms`} target="_blank" rel="noopener noreferrer">@DurrellLyonsPerforms</a>
-                            <script src="https://cdn.lightwidget.com/widgets/lightwidget.js" />
-                            <iframe src="//lightwidget.com/widgets/419cedb101be51ccabc3be1aa7117c80.html" 
-                                    scrolling="no" 
-                                    allowtransparency="true" 
-                                    className="lightwidget-widget"
-                                    title="lightwidget-widget">
-                            </iframe>
-                            <div className='social_media_div'>
-                                <div className='facebook' id="facebook" onClick={() => this.socialMediaLinks(this.id, "http://facebook.com/durrelllyonsperforms")}></div>
-                                <div className='twitter' id="twitter" onClick={() => this.socialMediaLinks(this.id, "http://twitter.com/durrelllyons")}></div>
-                                <div className='instagram' id="instagram" onClick={() => this.socialMediaLinks(this.id, "http://instagram.com/durrelllyonsperforms")}></div>
-                                <div className='imdbImg' id="imdbImg" onClick={() => this.socialMediaLinks(this.id, "http://imdb.me/durrelllyons")}></div>
-                            </div>
-                        </article>
+                                <span>New Mexico representation: </span>
+                                <img src={PhirgunMairLogo} id="nmAgentLogo" alt="NM Agent Logo" />
+                                
+                                <p>
+                                    For booking for live shows entertainment for the theater, spoken word, or comedy
+                                    please send an email to <a href={`mailto:durrell.lyons@gmail.com`}>Durrell.Lyons@gmail.com</a>
+                                </p>
+                            </article>
+                            <article className="igWidget">
+                                <span>Follow Me: </span><a href={`http://instagram.com/durrelllyonsperforms`} target="_blank" rel="noopener noreferrer">@DurrellLyonsPerforms</a>
+                                <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+                                <iframe src="//lightwidget.com/widgets/603de25fc89958a19baba9c0a305fad6.html"
+                                        scrolling="no"
+                                        allowtransparency="true" 
+                                        className="lightwidget-widget"
+                                        title="lightwidget-widget">
+                                </iframe>
+                            </article>
+                        </div>
+                        <div className='social_media_div'>
+                            <div className='facebook' id="facebook" onClick={() => this.socialMediaLinks(this.id, "http://facebook.com/durrelllyonsperforms")}></div>
+                            <div className='twitter' id="twitter" onClick={() => this.socialMediaLinks(this.id, "http://twitter.com/durrelllyons")}></div>
+                            <div className='instagram' id="instagram" onClick={() => this.socialMediaLinks(this.id, "http://instagram.com/durrelllyonsperforms")}></div>
+                            <div className='imdbImg' id="imdbImg" onClick={() => this.socialMediaLinks(this.id, "http://imdb.me/durrelllyons")}></div>
+                        </div>
                     </div>
                 </section>
             </div>

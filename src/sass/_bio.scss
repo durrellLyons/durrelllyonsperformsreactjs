@@ -14,10 +14,6 @@
 
     section {
 
-        @media screen and (min-width: $query__large) {
-           // padding: 5em ;
-        }
-
         h2 {
             text-align: center;
         }
@@ -44,6 +40,10 @@
             @media screen and (min-width: $query__large) {
                 padding: 1em;
                 border-radius: 10px;
+            }
+
+            .demo_reel {
+                margin: 2em auto;
             }
         }
     }
