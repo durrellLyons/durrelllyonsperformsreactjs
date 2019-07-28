@@ -404,6 +404,32 @@ a {
   }
 }
 
+.page_title {
+  font-size: 3em;
+  font-family: "Cantarell", Arial;
+  color: #211f8a;
+  text-align: center;
+}
+@media screen and (min-width: 600px) {
+  .page_title::before, .page_title::after {
+    height: 3px;
+    content: "";
+    margin-top: 0.75em;
+    border: 3px inset #211f8a;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    display: inline-block;
+    width: 25%;
+  }
+  .page_title::before {
+    float: left;
+  }
+  .page_title::after {
+    float: right;
+  }
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -563,8 +589,8 @@ header nav .menu ul li:first-child {
 --------------------------------------------------------------*/
 .bio {
   width: 100%;
-  background-position: 15% 0%;
   z-index: 11;
+  padding: 10em 0;
 }
 @media screen and (min-width: 300px) {
   .bio {
@@ -574,6 +600,7 @@ header nav .menu ul li:first-child {
 @media screen and (min-width: 900px) {
   .bio {
     background: url("../img/full_body_vest.jpg") no-repeat fixed #000;
+    background-size: cover;
   }
 }
 .bio section h2 {
@@ -586,6 +613,7 @@ header nav .menu ul li:first-child {
 .bio section .bio-note {
   background: rgba(249, 249, 249, 0.7);
   border: 1px solid rgba(240, 240, 240, 0.9);
+  margin: 2em auto;
 }
 @media screen and (min-width: 300px) {
   .bio section .bio-note {
@@ -611,6 +639,7 @@ header nav .menu ul li:first-child {
 .photoContent {
   width: 100%;
   text-align: center;
+  padding: 5em 0;
 }
 @media screen and (min-width: 300px) {
   .photoContent {
@@ -656,6 +685,7 @@ header nav .menu ul li:first-child {
 --------------------------------------------------------------*/
 .credits {
   background-color: rgba(175, 175, 175, 0.9);
+  padding: 5em 0;
 }
 
 .creditsDiv {
@@ -729,6 +759,7 @@ header nav .menu ul li:first-child {
   background-color: #000;
   color: #f0f0f0;
   width: 100%;
+  padding: 5em 0;
 }
 .contact:after {
   content: "";
@@ -811,6 +842,17 @@ header nav .menu ul li:first-child {
 }
 .contact .igWidget .social_media_div .instagram {
   background-position: -305px -101px;
+}
+.contact .igWidget .social_media_div .imdbImg {
+  display: inline-block;
+  background-image: url("../img/imdbImg.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 5.9em;
+  cursor: pointer;
+  margin: 0 2% 1%;
+  border-radius: 10px;
+  background-position: 0 0;
 }
 
 /*--------------------------------------------------------------

@@ -19,6 +19,7 @@ export default class Contact extends Component {
             <div>
                 <section className="contact">
                     <div className="container">
+                        <h1 className="page_title"> Contact </h1>
                         <article className="reps">
                             <span>Southeast representation: </span>
                             <img src={BYSBLogo} id="seAgentLogo" alt="SE Agent Logo" />
@@ -45,6 +46,7 @@ export default class Contact extends Component {
                                 <div className='facebook' id="facebook" onClick={() => this.socialMediaLinks(this.id, "http://facebook.com/durrelllyonsperforms")}></div>
                                 <div className='twitter' id="twitter" onClick={() => this.socialMediaLinks(this.id, "http://twitter.com/durrelllyons")}></div>
                                 <div className='instagram' id="instagram" onClick={() => this.socialMediaLinks(this.id, "http://instagram.com/durrelllyonsperforms")}></div>
+                                <div className='imdbImg' id="imdbImg" onClick={() => this.socialMediaLinks(this.id, "http://imdb.me/durrelllyons")}></div>
                             </div>
                         </article>
                     </div>

@@ -1,6 +1,8 @@
 .photoContent  {
     width: 100%;
     text-align: center;
+    padding: 5em 0;
+    
     @media screen and (min-width: $query__small) {
         margin-top: 2em;
     }

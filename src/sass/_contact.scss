@@ -3,6 +3,7 @@
     background-color: #000;
     color: $textWhite;
     width: 100%;
+    padding: 5em 0;
     &:after {
         content: '';
         display: table;
@@ -91,6 +92,18 @@
             
             .instagram {
                 background-position: -305px -101px;
+            }
+
+            .imdbImg {
+                display: inline-block;
+                background-image: url('../img/imdbImg.png');
+                background-repeat: no-repeat;
+                height: 100%;
+                width: 5.9em;
+                cursor: pointer;
+                margin: 0 2% 1%;
+                border-radius: 10px;
+                background-position: 0 0;
             }
         }
     }

@@ -95,6 +95,7 @@ class Photo extends Component {
       <div className="App-Photo">
         <div className="container">
           <article className="photoContent">
+            <h1 className="page_title"> Photo Gallery </h1>
             { imageData }
           </article>
         </div>

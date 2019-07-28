@@ -101,6 +101,7 @@ export default class Credits extends Component {
             <div>
                 <section className="credits">
                     <div className="container">
+                        <h1 className="page_title"> Credits </h1>
                         {imageData}
                     </div>
                 </section>
