@@ -4,22 +4,6 @@ import ImageSlide from "../imageSlide-component/imageSlide.component";
 
 export default class Header extends Component {
 
-  constructor(){
-    super();
-
-    this.screenCheck = this.screenCheck.bind(this);
-  }
-
-  screenCheck(){
-    if(window.innerWidth >= 600) {
-      document.getElementById("bgVideo").muted = false;
-    }
-  }
-
-  componentDidMount(){
-    this.screenCheck();
-  }
-
   render() {
       return (
           <section className="home" role="banner">

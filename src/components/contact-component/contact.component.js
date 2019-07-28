@@ -34,7 +34,7 @@ export default class Contact extends Component {
                             </p>
                         </article>
                         <article className="igWidget">
-                            <span>Follow Me: </span><a href={`http://instagram.com/durrelllyonsperforms`} target="_blank">@DurrellLyonsPerforms</a>
+                            <span>Follow Me: </span><a href={`http://instagram.com/durrelllyonsperforms`} target="_blank" rel="noopener noreferrer">@DurrellLyonsPerforms</a>
                             <script src="https://cdn.lightwidget.com/widgets/lightwidget.js" />
                             <iframe src="//lightwidget.com/widgets/419cedb101be51ccabc3be1aa7117c80.html" 
                                     scrolling="no" 
