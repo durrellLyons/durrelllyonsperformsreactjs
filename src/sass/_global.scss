@@ -23,17 +23,6 @@ a {
 
 .main {
     width: 100%;
-    @media screen and (min-width: $query__small) {
-        padding: 10% 0 0;
-    }
-
-    @media screen and (min-width: $query__medium) {
-        padding: 5% 0 0;
-    }
-
-    @media screen and (min-width: $query__large) {
-        padding: 4% 0 0;
-    }
 }
 
 .page_title {

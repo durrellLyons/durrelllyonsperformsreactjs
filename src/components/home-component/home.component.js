@@ -22,18 +22,18 @@ export default class Header extends Component {
 
   render() {
       return (
-          <div className="home" role="banner">
-            <section className="demoReel">
+          <section className="home" role="banner">
+            <div className="demoReel">
               <video className="bgVideo" id="bgVideo" width="100%" autoPlay="autoPlay" loop="loop" muted>
                 <source src={Background_Video} type="video/mp4" />
                 Your browser does not support HTML5 video.
               </video>
-            </section>
+            </div>
 
-            <section className="mobileSlide">
+            <div className="mobileSlide">
               <ImageSlide />
-            </section>
-          </div>
+            </div>
+          </section>
       );
   }
 }

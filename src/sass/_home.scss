@@ -3,6 +3,10 @@
     .home {
         width: 100%;
 
+        .demoReel {
+            background-color: #000;
+        }
+
         .mobileSlide {
             .fullBodyImage img {
                 width: 100%;
@@ -36,6 +40,8 @@
             display: block;
             position: fixed;
             z-index: -1;
+            top: 0em;
+            bottom: 0em;
         }
 
         .mobileSlide {

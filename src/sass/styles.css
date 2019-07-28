@@ -388,21 +388,6 @@ a {
 .main {
   width: 100%;
 }
-@media screen and (min-width: 300px) {
-  .main {
-    padding: 10% 0 0;
-  }
-}
-@media screen and (min-width: 600px) {
-  .main {
-    padding: 5% 0 0;
-  }
-}
-@media screen and (min-width: 900px) {
-  .main {
-    padding: 4% 0 0;
-  }
-}
 
 .page_title {
   font-size: 3em;
@@ -553,6 +538,9 @@ header nav .menu ul li:first-child {
   .home {
     width: 100%;
   }
+  .home .demoReel {
+    background-color: #000;
+  }
   .home .mobileSlide .fullBodyImage img {
     width: 100%;
   }
@@ -579,6 +567,8 @@ header nav .menu ul li:first-child {
     display: block;
     position: fixed;
     z-index: -1;
+    top: 0em;
+    bottom: 0em;
   }
   .home .mobileSlide {
     display: none;
@@ -636,10 +626,19 @@ header nav .menu ul li:first-child {
 /*--------------------------------------------------------------
 # Photo
 --------------------------------------------------------------*/
+.photo {
+  background-color: rgba(175, 175, 175, 0.9);
+  padding: 5em 0;
+}
+
 .photoContent {
   width: 100%;
   text-align: center;
-  padding: 5em 0;
+}
+.photoContent:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 @media screen and (min-width: 300px) {
   .photoContent {
@@ -648,8 +647,9 @@ header nav .menu ul li:first-child {
 }
 .photoContent .photoDiv {
   float: left;
-  height: 25em;
   position: relative;
+  background-color: rgba(240, 240, 240, 0.9);
+  padding: 1%;
 }
 .photoContent .photoDiv .helper {
   display: inline-block;
@@ -664,18 +664,20 @@ header nav .menu ul li:first-child {
 @media screen and (min-width: 300px) {
   .photoContent .photoDiv {
     width: 98%;
-    margin: 3% 1%;
+    margin: 3% auto;
   }
 }
 @media screen and (min-width: 600px) {
   .photoContent .photoDiv {
-    width: 46%;
+    width: 44%;
     margin: 2%;
+    border-radius: 10px;
+    height: 26em;
   }
 }
 @media screen and (min-width: 900px) {
   .photoContent .photoDiv {
-    width: 30%;
+    width: 29%;
     margin: 1%;
   }
 }

@@ -92,14 +92,14 @@ class Photo extends Component {
 
     return (
       /* variables placed in respective divs to display on screen */
-      <div className="App-Photo">
+      <section className="photo">
         <div className="container">
           <article className="photoContent">
             <h1 className="page_title"> Photo Gallery </h1>
             { imageData }
           </article>
         </div>
-      </div>
+      </section>
     )
   }
 }
