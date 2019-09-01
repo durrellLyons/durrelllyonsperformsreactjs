@@ -544,6 +544,17 @@ header nav .menu ul li:first-child {
   .home .mobileSlide .fullBodyImage img {
     width: 100%;
   }
+  .home .branding {
+    margin: 0 auto;
+    font-size: 3.2em;
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    letter-spacing: 0.11em;
+    text-align: center;
+    color: #f0f0f0;
+    background-color: rgba(33, 31, 138, 0.9);
+  }
 }
 @media screen and (min-width: 300px) {
   .home {
@@ -553,6 +564,18 @@ header nav .menu ul li:first-child {
   .demoReel {
     display: none;
   }
+
+  .branding {
+    margin: 0 auto;
+    font-size: 3.2em;
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    letter-spacing: 0.11em;
+    text-align: center;
+    color: #f0f0f0;
+    background-color: rgba(33, 31, 138, 0.9);
+  }
 }
 @media screen and (min-width: 600px) {
   .demoReel {
@@ -561,6 +584,12 @@ header nav .menu ul li:first-child {
 
   .mobileSlide {
     display: none;
+  }
+
+  .branding {
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 0.11em;
   }
 }
 @media screen and (min-width: 900px) {
@@ -576,6 +605,12 @@ header nav .menu ul li:first-child {
   }
   .home .mobileSlide {
     display: none;
+  }
+  .home .branding {
+    width: 100%;
+    letter-spacing: 0.1em;
+    font-size: 4em;
+    margin: 0 auto;
   }
 }
 /*--------------------------------------------------------------
@@ -783,6 +818,7 @@ header nav .menu ul li:first-child {
 .contact article {
   float: left;
   padding: 1%;
+  overflow: hidden;
 }
 @media screen and (min-width: 300px) {
   .contact article {
@@ -817,6 +853,7 @@ header nav .menu ul li:first-child {
   width: 100%;
   height: 6em;
   text-align: center;
+  margin: 2em auto 0;
 }
 .contact .social_media_div:after {
   content: "";

@@ -17,6 +17,10 @@ export default class Header extends Component {
             <div className="mobileSlide">
               <ImageSlide />
             </div>
+
+            <div className="branding">
+                Poet. Actor. Artist.
+            </div>
           </section>
       );
   }

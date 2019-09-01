@@ -76,7 +76,7 @@ class Photo extends Component {
                      {
                        /* map() function used to iterate through images */
                        /* getImage() method used to retreive actual image file from media storage container*/
-                      this.state.imageList.map((pics) => {
+                      this.state.imageList.reverse().map((pics) => {
                         return <div key={pics[0].photo_id} className="photoDiv">
                                 <span className="helper"></span>
                                 <img id={pics[0].photo_id + '-image'} alt={pics[0].image} />

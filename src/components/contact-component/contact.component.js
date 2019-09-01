@@ -36,12 +36,11 @@ export default class Contact extends Component {
                             </article>
                             <article className="igWidget">
                                 <span>Follow Me: </span><a href={`http://instagram.com/durrelllyonsperforms`} target="_blank" rel="noopener noreferrer">@DurrellLyonsPerforms</a>
-                                <script src="//lightwidget.com/widgets/lightwidget.js"></script>
-                                <iframe src="//lightwidget.com/widgets/603de25fc89958a19baba9c0a305fad6.html"
-                                        scrolling="no"
-                                        allowtransparency="true" 
-                                        className="lightwidget-widget"
-                                        title="lightwidget-widget">
+                                <iframe 
+                                    src="//lightwidget.com/widgets/df8937fc1dfa53b6872447176d2d9da1.html" 
+                                    scrolling="no" 
+                                    allowtransparency="true" 
+                                    className="lightwidget-widget" >
                                 </iframe>
                             </article>
                         </div>
