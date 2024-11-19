@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "^6.2.3",
+    "firebase": "^10.9.0",
     "instafeed-lite": "^1.0.10",
     "instafeed.js": "^1.4.1",
     "react": "^16.8.6",
